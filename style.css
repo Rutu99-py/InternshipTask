@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins',sans-serif;
+}
+
+body{
+	display: flex;
+	height: 110vh;
+	justify-content: left;
+	align-items: center;
+	padding: 10px;
+	background: #202020;
+	/*background: linear-gradient(135deg, #4ca1af, #c4e0e5);*/
+	
+}
+
+.abc{
+	background: url(bg1.jpg) no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+	position: relative;
+	margin-top: 100px;
+}
+
+.navbar{
+	height: 80px;
+	width: 100%;
+	background: black;
+}
+.navbar1{
+	height: 80px;
+	width: 100%;
+}
+
+.logo{
+	width: 224px;
+	height: 80px;
+        background-image: url(logo2.png);
+        background-repeat: no-repeat;
+	
+}
+.navbar ul{
+	float: right;
+	margin-right: 20px;
+}
+.navbar ul li{
+	list-style: none;
+	margin: 0 8px;
+	display: inline-block;
+	line-height: 80px;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 6px 13px;
+	font-family: 'Poppins', sans-serif;
+	transition: .4s;
+}
+.navbar ul li a.active,
+.navbar ul li a:hover{
+	background: red;
+	border-radius: 2px;
+	
+}
+.abc .c{
+	position: absolute;
+	top: 50%;
+	left: 55%;
+	transform: translate(-50%, -50%);
+	font-family: sans-serif;
+	user-select: none;
+	
+}
+.c h1{
+	color: white;
+	font-size: 55px;
+	font-weight: bold;
+	width: 900px;
+	text-align: center;
+}
+.c h2{
+	color: white;
+	font-size: 45px;
+	font-weight: bold;
+	width: 885px;
+	margin-top: 10px;
+	text-align: center;
+}
+.c .b{
+	margin: 35px 360px;
+}
+.b button{
+	height: 50px;
+	width: 150px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #ffb3b3;
+	background: red;
+	
+}
+/*.abc img{
+	display: block;
+	width: 100%;
+	
+}
+nav{
+	position: fixed;
+	z-index: 10;
+	left: 0;
+	right: 0;
+	top: 0;
+	font-family: 'Montserrat', sans-serif;
+	padding: 0 5%;
+	height: 100px;
+	background-color: #ffa500;
+}
+
+nav .log{
+	float: left;
+	width: 40%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 24px;
+	color: #fff;
+}
+nav .links{
+	float: right;
+	padding: 0;
+	margin: 0;
+	width: 60%;
+	height: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+nav .links li{
+	list-style:none;
+}
+
+nav .links a{
+	display: block;
+	padding: 1em;
+	font-size: 25px;
+	font-weight: bold;
+	color: #fff;
+	text-decoration: none;
+	background-color: #FF7F50;
+}*/
+.container{
+	max-width: 700px;
+	width: 70%;
+	height: 70vh;
+	background: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	float: left;
+	
+}
+
+
+.container .title{
+	color: #ffa500;
+	font-size: 25px;
+	font-weight: 300;
+	position: relative;
+	
+}
+
+.container .title::before{
+	content: '';
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+}
+
+.container form .user-details{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+form .user-details .input-box{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+	
+}
+
+.user-details .input-box .details{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+	
+}
+
+.user-details .input-box input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius:5px;
+	border: 1px solid #ccc;
+	padding-left:15px;
+	font-size: 16px;
+	
+}
+
+form .button{
+	height: 35px;
+	margin: 35px 0;
+}
+
+form .button input{
+	height: 45px;
+	width: 85px;
+	outline: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	color: #fff;
+	background-color: #ffa500;
+}
+
+
+
+
+.signin{
+	max-width: 600px;
+	width: 100%;
+	height: 60vh;
+	background: #fff;
+	padding: 25px 30px;
+	border-radius: 5px;
+	float: right;
+	margin-left: 10px;
+}
+
+.signin .title1{
+	color: #ffa500;
+	font-size: 25px;
+	font-weight: 300;
+	position: relative;
+}
+
+.signin .title1::before{
+	content: '';
+	position:absolute;
+	left: 0;
+	bottom: 0;
+	height: 3px;
+	width: 30px;
+}
+
+.signin form .user-details1{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+form .user-details1 .input-box1{
+	margin-bottom: 15px;
+	width: calc(100% / 2 - 20px);
+	
+}
+
+.user-details1 .input-box1 .details1{
+	display: block;
+	font-weight: 500;
+	margin-bottom: 5px;
+	
+}
+
+.user-details1 .input-box1 input{
+	height: 45px;
+	width: 100%;
+	outline: none;
+	border-radius:5px;
+	border: 1px solid #ccc;
+	padding-left:15px;
+	font-size: 16px;
+	
+}
+
+form .button1{
+	height: 35px;
+	margin: 35px 0;
+}
+
+form .button1 input{
+	height: 45px;
+	width: 85px;
+	outline: none;
+	font-size: 18px;
+	font-weight: 500;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	color: #fff;
+	background-color: #ffa500;
+}
